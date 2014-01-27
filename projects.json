@@ -1,0 +1,48 @@
+﻿[{
+"id": "1",
+"title": "blah",
+"project_name" : "Blah 1 Project",
+"architect" : "Architect 1",
+"contractor" : "Contractor 1",
+"copy" : "Copy copy copyt copy copyp",
+"url" : "project1",
+"categories" : [{ "label":"Education", "urlId":"education" },{ "label":"London", "urlId":"london" }],
+"images": [{ "url":"images/project1.jpg" }]
+}
+,
+{
+"id": "2",
+"title": "blah2",
+"project_name" : "Blah 2 Project",
+"architect" : "Architect 2",
+"contractor" : "Contractor 2",
+"copy" : "Copy copy copyt copy copyp",
+"url" : "project2",
+"categories" : [{ "label":"Residential", "urlId":"residential" },{ "label":"London", "urlId":"london" }],
+"images": [{ "url":"images/project1.jpg" }]
+}
+,
+{
+"id": "3",
+"title": "blah3",
+"project_name" : "Blah 3 Project",
+"architect" : "Architect 3",
+"contractor" : "Contractor 3",
+"copy" : "Copy copy copyt copy copyp",
+"url" : "project3",
+"categories" : [{ "label":"Health", "urlId":"health" },{ "label":"London", "urlId":"london" }],
+"images": [{ "url":"images/project1.jpg" }]
+}
+,
+{
+"id": "4",
+"title": "blah4",
+"project_name" : "Blah 4 Project",
+"architect" : "Architect 4",
+"contractor" : "Contractor 4",
+"copy" : "Copy copy copyt copy copyp",
+"url" : "project4",
+"categories" : [{ "label":"Commercial", "urlId":"commercial" },{ "label":"London", "urlId":"london" }],
+"images": [{ "url":"images/project1.jpg" }]
+}
+]

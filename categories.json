@@ -1,0 +1,46 @@
+{
+    "urlId": "dashboard",
+    "children": [{
+        "label": "Regions",
+        "urlId": "regions",
+        "hasWideIcon": true,
+        "children": [{
+            "label": "London",
+            "urlId": "london",
+            "hasWideIcon": true
+        },{
+            "label": "Manchester",
+            "urlId": "manchester",
+            "hasWideIcon": true
+        },{
+            "label": "Bristol",
+            "urlId": "bristol",
+            "hasWideIcon": true
+        },{
+            "label": "Glasgow",
+            "urlId": "glasgow",
+            "hasWideIcon": true
+        }]
+    },{
+        "label": "Sectors",
+        "urlId": "sectors",
+        "hasWideIcon": true,
+        "children": [{
+            "label": "Education",
+            "urlId": "education",
+            "hasWideIcon": true
+        },{
+            "label": "Health",
+            "urlId": "health",
+            "hasWideIcon": true
+        },{
+            "label": "Residential",
+            "urlId": "residential",
+            "hasWideIcon": true
+        },{
+            "label": "Commercial",
+            "urlId": "commercial",
+            "hasWideIcon": true
+        }]
+    }]
+}
