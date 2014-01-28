@@ -86,12 +86,15 @@ Ext.define('CfaSika.store.ProjectData', {
 
                 var returnFlag = false;
 
-                Ext.each(regions, function(item){
-                    if (item.urlId === regionString) {
-
-                        returnFlag = true;
-                    }
-                })
+                if (regions.length) {
+                    Ext.each(regions, function(item){
+                        if (item.urlId) {
+                            if (item.urlId === regionString) {
+                                returnFlag = true;
+                            }
+                        }
+                    })
+                }
             }
 
             return returnFlag;
@@ -114,12 +117,16 @@ Ext.define('CfaSika.store.ProjectData', {
                     record.get('sector')
                 );
 
-                Ext.each(sectors, function(item){
-                    if (item.urlId === sectorString) {
-
-                        returnFlag = true;
-                    }
-                });
+                // Check the array size
+                if (sectors.length) {
+                    Ext.each(sectors, function(item){
+                        if (item.urlId) {
+                            if (item.urlId === sectorString) {
+                                returnFlag = true;
+                            }
+                        }
+                    })
+                }
             }
 
             return returnFlag;
